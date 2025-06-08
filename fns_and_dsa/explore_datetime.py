@@ -18,7 +18,7 @@ def main():
     try:
         # Get number of days to add from user
         days = int(input("Enter the number of days to add to the current date: "))
-        print("Future date:", calculate_future_date(days))
+        print"[future_date.strftime"]
     except ValueError:
         print("Invalid input. Please enter a valid number.")
 
