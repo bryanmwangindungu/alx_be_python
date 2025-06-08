@@ -13,7 +13,7 @@ def calculate_future_date(days):
 
 def main():
     # Display current date and time
-    print("Current date and time:", displaycurrentdatetime())
+    print("Current date and time:",displaycurrentdatetime())
     
     try:
         # Get number of days to add from user
