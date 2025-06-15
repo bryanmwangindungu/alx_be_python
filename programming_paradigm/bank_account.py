@@ -32,20 +32,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-✅ Test Examples:
-In terminal / command line:
-
-shell
-Copy
-Edit
-python main-0.py deposit:50
-# Output: Deposited: $50
-
-python main-0.py withdraw:20
-# Output: Withdrew: $20
-
-python main-0.py withdraw:150
-# Output: Insufficient funds.
-
-python main-0.py display
-# Output: Current Balance: $[amount]
