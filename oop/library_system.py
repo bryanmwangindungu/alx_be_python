@@ -22,11 +22,9 @@ class Library:
         self.books = []
 
     def add_book(self, book):
-        """Add a Book, EBook, or PrintBook instance to the library."""
         self.books.append(book)
 
     def list_books(self):
-        """Print details of each book in the library."""
         for book in self.books:
             if isinstance(book, EBook):
                 print(f"EBook: {book.title} by {book.author}, File Size: {book.file_size}KB")
